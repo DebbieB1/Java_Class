@@ -59,7 +59,7 @@ public class Game {
 			switch (i) {
 			case 0:
 				// squares[i] = new Square("Go");
-				squares.add(new Square("Go"));
+				squares.add(new GoSquare());
 				break;
 			default:
 				// squares[i] = new Square("Square" + i);

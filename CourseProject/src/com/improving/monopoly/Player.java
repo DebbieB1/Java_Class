@@ -41,7 +41,11 @@ public class Player {
 		for (int i = 0; i < steps; i++) {
 			location = location.getNextSquare();
 		}
-				
+		location.landOnBy(this);
 		
 	}
+
+	public void credit(int amount) { 
+		money += amount;
+			}
 }
