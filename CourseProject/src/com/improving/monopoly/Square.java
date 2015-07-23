@@ -25,4 +25,9 @@ public class Square {
 	   // empty for now
 		
 	}
+
+	public void passOverBy(Player player) { 
+		//
+		
+	}
 }
