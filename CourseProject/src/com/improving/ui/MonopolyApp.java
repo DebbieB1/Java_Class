@@ -14,6 +14,7 @@ public class MonopolyApp {
 		for (Player player : players) {
 			System.out.println(player.getToken() + " rolled a " + player.getLastRoll());
 			System.out.println(player.getToken() + " landed on " + player.getLocation().getName());
+			System.out.println(player.getToken() + " new balance is " + player.getMoney());
 
 		} 
 	}
