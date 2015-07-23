@@ -89,7 +89,7 @@ public class Game {
 		return squares;
 	}
 
-	public Player[] getPlayers() {
+	public IPlayer[] getPlayers() {
 		return players;
 	}
 
