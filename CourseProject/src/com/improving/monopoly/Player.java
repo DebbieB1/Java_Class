@@ -48,4 +48,9 @@ public class Player {
 	public void credit(int amount) { 
 		money += amount;
 			}
+
+	public void debit(int amount) {
+		money -= amount;
+		
+	}
 }

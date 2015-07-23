@@ -61,6 +61,14 @@ public class Game {
 				// squares[i] = new Square("Go");
 				squares.add(new GoSquare());
 				break;
+			case 4:
+				// squares[i] = new Square("IncomeTax");
+				squares.add(new IncTaxSquare());
+				break;	
+			case 38:
+				// squares[i] = new Square("LuxuryTax");
+				squares.add(new LuxTaxSquare());
+				break;
 			default:
 				// squares[i] = new Square("Square" + i);
 				squares.add(new Square("Square" + i));
