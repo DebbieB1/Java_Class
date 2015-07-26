@@ -32,7 +32,7 @@ public class WhenSettingUpGame {
 		assertEquals("Square1", squares.get(1).getName());
 		assertEquals("Square2", squares.get(2).getName());
 		assertEquals("Square3", squares.get(3).getName());
-		assertEquals("Square4", squares.get(4).getName());
+		assertEquals("Income Tax", squares.get(4).getName());
 		assertEquals("Square5", squares.get(5).getName());
 		assertEquals("Square6", squares.get(6).getName());
 		assertEquals("Square7", squares.get(7).getName());
