@@ -9,7 +9,7 @@ public class GoSquare extends Square {
 	public void landOnBy(Player player) {
 		// nothing
 	}
-
+//test
 	@Override
 	public void passOverBy(Player player) {
 		player.credit(200);
