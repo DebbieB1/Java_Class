@@ -8,7 +8,7 @@ public class LuxTaxSquare extends Square {
     @Override
     public void landOnBy(Player player) {
         player.debit(75);
-        //test
+
         
     }
 }
